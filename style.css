@@ -1,0 +1,146 @@
+* {
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+
+header {
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+body {
+    width: 1300px;
+    height: 600px;
+    background: linear-gradient(#0A3871, #D8DFE8, #495057);
+}
+
+.codificador {
+    color: #0A3871;
+    background-color: #c3cbd3;
+    border-color: #0A3871;
+    border-radius: 15px;
+    resize: none;
+
+    position: absolute;
+    width: 680px;
+    height: 300px;
+    top: 168px;
+    left: 160px;  
+    text-decoration-color: blue;
+}
+
+.codificador:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.codificador:active {
+    border: 1.8px #0A3871 solid;
+}
+
+
+.decodificador {
+    color: #0A3871;
+    background-color: #c3cbd3;
+    border-color: #0A3871;
+    border-radius: 15px;
+    resize: none;
+
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 900px;
+    top: 40px; 
+    background-image: url("./img/descriptador.png");
+    background-position: 50% 50%;
+    background-size: 300px 600px;
+    background-repeat: no-repeat;
+}
+
+.decodificador:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.decodificador:active {
+    border: 1.8px #0A3871 solid;
+}
+
+.botoes {
+    margin-top: 420px;
+    margin-left: 170px;
+}
+
+.botoes p {
+    color: #0A3871;
+    font-size: 16px;
+}
+
+.botoes .criptografar, .copiar {
+    color: #D8DFE8;
+    background-color: #0A3871;
+    border: 1.8px #0A3871 solid;
+    border-radius: 20px;
+    padding: 16px 50px; 
+    font-size: 16px;
+    margin-right: 16px;
+    transition: 4s;
+}
+
+.botoes .copiar {
+    margin-left: 240px;
+}
+
+.botoes .criptografar:hover, .copiar:hover {
+    color: #0A3871;
+    background-color: rgb(231, 182, 92);
+}
+
+.botoes .descriptador, .limpar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1.8px #0A3871 solid;
+    border-radius: 20px;
+    padding: 16px 50px; 
+    font-size: 16px;
+    margin-left: 16px;
+    transition: 2.2s;
+} 
+
+.botoes .descriptador:hover, .limpar:hover {
+    background: rgb(231, 182, 92);
+}
+
+
+
+
+
+
+footer {
+    margin-top: 40px;
+    margin-left: -10px;
+    margin-right: 50px;
+    width: 1350px;
+    height: 200px;
+    background-color: #495057;
+}
+
+footer div {
+    width: 1350px;
+    height: 100px;
+    background-color: #495057;
+}
+
+footer p {
+    margin: auto ;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
